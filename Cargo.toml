@@ -1,0 +1,10 @@
+[package]
+name = "ms_tutorial_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gloo = "0.11.0"
+nostr-minions = "0.1.6"
+nostro2 = "0.2.4"
+yew = { version = "0.21.0", features = ["csr"] }
